@@ -2,20 +2,18 @@
 
 ========================================================================
 
-**gMOSS: the galaxies catalogue in 2 square degree in the HS47.5-22 field**
+**The gMOSS: the galaxy survey and galaxy populations of the large homogeneous field**
     
-A. Grokhovskaya and S. N. Dodonov
+Grokhovskaya A., Dodonov S. N., Movsessian T.A., Kotov S.S.
    
-/article data, 2021/
+/article data, 2022/
    
    doi
    
 ========================================================================
 
-ADC_Keywords: Galaxy catalogs ; Redshifts
-
-Keywords: catalogs - galaxies: clusters: general - galaxies: high-redshift -
-          methods: data analysis
+Keywords: Astronomical data bases: surveys - cosmology: observations - galaxies: 
+          photometry – galaxies: evolution – galaxies: formation
 
 **Abstract:**
 
@@ -24,10 +22,11 @@ Keywords: catalogs - galaxies: clusters: general - galaxies: high-redshift -
     
 
 **File Summary**:
-| FileName | Records | Explanations|
-|--|--|--|
-| ReadMe  | . | This file |
-|table1.dat|  |Galaxies catalog|
+| FileName | Explanations|
+|--| --|
+| ReadMe  | This file |
+|table1.dat| Galaxies catalog|
+|table2.dat| 6-meter telescope observations|
     
 **See also:**
   
@@ -70,16 +69,22 @@ Keywords: catalogs - galaxies: clusters: general - galaxies: high-redshift -
 | 30 | mag | er775 | mb675-band magnitude error |
 | 31 | mag | mu | u SDSS magnitude |
 | 32 | mag | eru |u SDSS magnitude error |
-| 33 | - - | chi_sq | reduced chi-square for galaxy SED |
-| 34 | Myr | sfh.age | Age of the main stellar populationin the galaxy |
-| 35 | M☉ | sfh.sfr | Instantaneous SFR |
-| 36 | M☉ | stellar.lum | Total luminosity |
-| 37 | M☉ | stellar.m_gas | Total gas mass |
-| 38 | M☉ | stellar.m_gas_old | Gas mass of the old population |
-| 39 | M☉ | stellar.m_gas_young | Gas mass of the young population |
-| 40 | M☉ | stellar.m_star | Total stellar mass |
-| 41 | M☉ | stellar.m_star_old | Stellar mass of the old population |
-| 42 | M☉ | stellar.m_star_youn | Stellar mass of the young population |
+| 33 | mag | mg | g SDSS magnitude |
+| 34 | mag | erg | g SDSS magnitude error |
+| 35 | mag | mr | r SDSS magnitude |
+| 36 | mag | err |r SDSS magnitude error |
+| 37 | mag | mi | i SDSS magnitude |
+| 38 | mag | eri |i SDSS magnitude error |
+
+
+**Description of file:** table2.dat
+| n | Units | Label | Explanations |
+|--|--|--|--|
+| 1 | - - | n | Number in order |
+| 2 | deg | RA | Right Ascension in decimal degrees (J2000) |
+| 3 | deg | DEC | Declination in decimal degrees (J2000) |
+| 4 | - - | zph | Spectroscopic redshift |
+| 5 | s | Exposure | Observation time |
   
 *Note (1):* 
 
@@ -91,5 +96,5 @@ History:
 
 ========================================================================
 
-Aleksandra Grokhovskaya // 02-Apr-2021
+Aleksandra Grokhovskaya // 23-Jan-2022
 
