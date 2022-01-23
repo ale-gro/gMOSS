@@ -18,23 +18,21 @@ Keywords: Astronomical data bases: surveys - cosmology: observations - galaxies:
 **Abstract:**
 
 
-**Description:**
-    
-
 **File Summary**:
 | FileName | Explanations|
 |--| --|
 | ReadMe  | This file |
-|table1.dat| Galaxies catalog|
-|table2.dat| 6-meter telescope observations|
+|table1.dat| Galaxies catalog with photometry in fixed apertures|
+|table2.dat| Galaxies catalog with photometry in Kron-like apertures|
+|table3.dat| 6-meter telescope observations|
     
 **See also:**
   
 
- -  [2017AstBu..72..473D](https://ui.adsabs.harvard.edu/abs/2017AstBu..72..473D//abstract) : One-meter Schmidt telescope of the Byurakan Astrophysical Observatory: New capabilities (Dodonov++, 2017)
+ -  [2017AstBu..72..473D](https://ui.adsabs.harvard.edu/abs/2017AstBu..72..473D//abstract) : One-meter Schmidt telescope of the Byurakan Astrophysical Observatory: New capabilities (Dodonov+, 2017)
    
 
-**Description of file:** table1.dat
+**Description of file:** table1.dat and table2.dat
 | n | Units | Label | Explanations |
 |--|--|--|--|
 | 1 | - - | GrpID | Galaxy identification number |
@@ -77,7 +75,7 @@ Keywords: Astronomical data bases: surveys - cosmology: observations - galaxies:
 | 38 | mag | eri |i SDSS magnitude error |
 
 
-**Description of file:** table2.dat
+**Description of file:** table3.dat
 | n | Units | Label | Explanations |
 |--|--|--|--|
 | 1 | - - | n | Number in order |
