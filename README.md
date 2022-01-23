@@ -35,7 +35,7 @@ Keywords: Astronomical data bases: surveys - cosmology: observations - galaxies:
 **Description of file:** table1.dat and table2.dat
 | n | Units | Label | Explanations |
 |--|--|--|--|
-| 1 | - - | GrpID | Galaxy identification number |
+| 1 | - - | GalID | Galaxy identification number |
 | 2 | deg | RA | Right Ascension in decimal degrees (J2000) |
 | 3 | deg | DEC | Declination in decimal degrees (J2000) |
 | 4 | - - | zph | Estimated photometric redshift |
