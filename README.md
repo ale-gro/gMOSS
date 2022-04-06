@@ -25,6 +25,7 @@ Keywords: Astronomical data bases: surveys - cosmology: observations - galaxies:
 |table1.dat| Galaxies catalog with photometry in fixed apertures|
 |table2.dat| Galaxies catalog with photometry in Kron-like apertures|
 |table3.dat| 6-meter telescope observations|
+|table4.dat| Stellar populations properties obtained with CIGALE code|
     
 **See also:**
   
@@ -83,6 +84,26 @@ Keywords: Astronomical data bases: surveys - cosmology: observations - galaxies:
 | 3 | deg | DEC | Declination in decimal degrees (J2000) |
 | 4 | - - | zph | Spectroscopic redshift |
 | 5 | s | Exposure | Observation time |
+
+**Description of file:** table4.dat
+| n | Units | Label | Explanations |
+|--|--|--|--|
+| 1 | - - | GalID | Galaxy identification number |
+| 2 | - - | chi_sq | Reduced χ^2 for galaxy SED |
+| 3 | mag | param.restframe_u_prime-r_prime | Rest-frame colour (u−r)_res |
+| 4 | mag | param.restframe_u_prime-r_prime_err | Rest-frame colour (u−r)_res error |
+| 5 | log [Myr] | stellar.age_m_star_log | Mass–weighted age |
+| 6 | log [Myr] | stellar.age_m_star_log_err | Mass–weighted age error|
+| 7 | mag | attenuation.E_BVs | E(B-V)s, the colour excess of the stellar light for both the young and old population |
+| 8 | mag | attenuation.E_BVs_err | E(B-V)s error|
+| 9 | log [M☉] | stellar.m_star_log  | Total stellar mass|
+| 10 | log [M☉] | stellar.m_star_log_err  | Total stellar mass error|
+| 11 | log [Myr] | sfh.age_main_log | Age of the main stellar population in the galaxy |
+| 12 | log [Myr] | sfh.age_main_log_err | Age of the main stellar population in the galaxy error|
+| 13 | dex | stellar.metallicity | Metallicity |
+| 14 | M☉ | sfh.sfr | Instantaneous SFR |
+| 15 | M☉ | sfh.sfr_err | Instantaneous SFR error|
+
   
 *Note (1):* 
 
