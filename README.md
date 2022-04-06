@@ -22,10 +22,10 @@ Keywords: Astronomical data bases: surveys - cosmology: observations - galaxies:
 | FileName | Explanations|
 |--| --|
 | ReadMe  | This file |
-|table1.dat| Galaxies catalog with photometry in fixed apertures|
-|table2.dat| Galaxies catalog with photometry in Kron-like apertures|
-|table3.dat| 6-meter telescope observations|
-|table4.dat| Stellar populations properties obtained with CIGALE code|
+|table1.xlsx| Galaxies catalog with photometry in fixed apertures|
+|table2.xlsx| Galaxies catalog with photometry in Kron-like apertures|
+|table3.xlsx| 6-meter telescope observations|
+|table4.xlsx| Stellar populations properties obtained with CIGALE code|
     
 **See also:**
   
